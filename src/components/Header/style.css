@@ -1,0 +1,13 @@
+
+
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
