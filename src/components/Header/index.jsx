@@ -7,18 +7,17 @@ import './style.css'
 
 function Header() {
     return (
-        <header className="container" >
+        <header className="container head" >
             <Link to={'/'} >
-                <img src={logo} alt="" />
+                <img className='logo1' src={logo} alt="eedf" />
             </Link>
-            <a href="/">
-            </a>
+            <hr className='hr'/>
             <ul>
-                <li><Link to={'/brand'} >O бренде</Link> </li>
-                <li><Link to={'/'} > продукциИ</Link> </li>
-                <li><Link to={'/advantages'} > преимущества</Link> </li>
-                <li><Link to={'/openclub'} > открыть клуб</Link> </li>
-                <li><Link to={'/contact'} > контакты</Link> </li>
+                <li><Link className='link' to={'/brand'} >O бренде🧠</Link> </li>
+                <li><Link className='link' to={'/'} > продукции🤝</Link> </li>
+                <li><Link className='link' to={'/advantages'} > преимущества👍</Link> </li>
+                <li><Link className='link' to={'/openclub'} > открыть клуб🤟</Link> </li>
+                <li><Link className='link' to={'/contact'} > контакты🤙</Link> </li>
             </ul>
         </header>
     );

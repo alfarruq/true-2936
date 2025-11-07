@@ -1,13 +1,53 @@
-
-
-
-header ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a{
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+header ul {
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+a {
     color: black;
     text-decoration: none;
+}
+
+.logo1 {
+    margin: 0 auto;
+    display: flex;
+}
+
+.head {
+    padding-top: 24px;
+}
+
+.link {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.hr {
+    width: 1239px;
+    height: 0px;
+    opacity: 1;
+    border-width: 1px;
+    margin: 16px auto;
+    
 }
