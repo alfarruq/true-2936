@@ -1,0 +1,43 @@
+.ftr {
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.blue {
+    background-color: #01AEE7;
+}
+
+
+.ftr ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+}
+.ftr h3{
+    text-align: left;
+    /* padding-left: 10px; */
+    color: white;
+}
+
+
+.ftr input{
+    padding: 10px 10px;
+    border: none;
+    margin-right: 10px  ;
+    color: black
+}
+.ftr button{
+    padding: 10px 10px ;
+    background-color: yellow;
+    border: none;
+}
+
+.int{
+    display: flex;
+    text-align: center;
+    padding-left: 70px ;
+    gap: 20px
+    
+}   
